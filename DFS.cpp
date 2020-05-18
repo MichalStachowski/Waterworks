@@ -1,16 +1,15 @@
-//Stachowski_Michal_AiR_1_171570
-//Wykorzystane srodowisko: Dev-C++ 5.11 (TDM_GCC 4.9.2)
+//Stachowski_Michal
 
 //Zadanie projektowe polega na wygenerowaniu mapy miast z losowymi sciezkami, sprawdzenie spojnosci powstalej sieci.
-//Je¿eli siec jest spojna to nale¿y wygenerowaæ sieæ wodoci¹gow¹ (wodociagi nie mog¹ tworzyc pêtli)
-// Wykorzystano algorytm DFS (przeszukiwanie w g³¹b).
+//JeÅ¼eli siec jest spojna to naleÅ¼y wygenerowaÄ‡ sieÄ‡ wodociagowa (wodociagi nie moga tworzyc pÄ™tli)
+// Wykorzystano algorytm DFS (przeszukiwanie w glab).
 #include<iostream>
 #include<ctime>
 #include<cstdlib>
 using namespace std;    
 
-	const int N = 100;
-    const int M = 100;
+const int N = 100;
+const int M = 100;
     
 struct siec
 {
@@ -266,4 +265,3 @@ void Nowa_trasa(siec *wsk, int punkt)
 		}
 	}
 }
-
